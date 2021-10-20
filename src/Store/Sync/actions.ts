@@ -14,7 +14,7 @@ export const syncDescription = (payload: any) => {
   };
 };
 
-export const triggerSyncService = (payload: any) => {
+export const triggerSyncService = (payload?: any) => {
   return {
     type: TRIGGER_SYNC,
     payload,

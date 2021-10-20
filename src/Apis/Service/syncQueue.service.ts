@@ -119,6 +119,7 @@ export const SyncQueueService = () => {
 
     const pendingItems = getPendingItems(entity);
 
+    console.tron.log('Passando aqui', pendingItems);
     if (pendingItems) {
       if (!flushItemsArray?.length) {
         // If pendingItems we then  loop through the pendingItems and add to flushItemsArray the objects
